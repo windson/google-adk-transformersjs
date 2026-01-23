@@ -763,7 +763,7 @@ For more complex agent scenarios, you can use Google ADK with Transformers.js as
 We've created a proof-of-concept showing how to integrate ADK with Transformers.js:
 
 ```
-examples/adk-transformers-poc/
+adk-transformers/
 ├── README.md              # Full documentation
 ├── transformers-llm.ts    # Custom BaseLlm for Transformers.js
 ├── agent.ts               # ADK agent with tools
@@ -817,12 +817,12 @@ class TransformersLlm extends BaseLlm {
 **Run the PoC:**
 
 ```bash
-cd examples/adk-transformers-poc
+cd adk-transformers
 npm install
 npm start
 ```
 
-See `examples/adk-transformers-poc/README.md` for full documentation.
+See `adk-transformers/README.md` for full documentation.
 
 ---
 

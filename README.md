@@ -83,7 +83,6 @@ This PoC handles these limitations by:
 ## Installation
 
 ```bash
-cd examples/adk-transformers-poc
 npm install
 ```
 
